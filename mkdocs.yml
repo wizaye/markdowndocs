@@ -1,0 +1,24 @@
+site_name: My Markdown Documentation
+site_author: Vijayendher Gatla
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+  font:
+    text: Roboto
+    code: JetBrains Mono
+  favicon: favicon.ico
+  icon:
+    logo: material/redhat
+  
+plugins:
+  - blog
